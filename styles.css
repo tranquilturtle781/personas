@@ -1,0 +1,328 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#q {
+    font-weight: 300;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+.header {
+    width: 100%;
+    font-size: 1.4rem;
+    background-color: #192142;
+    color: white;
+    font-weight: 700;
+    min-height: 220px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header div {
+    max-width: 70%;
+    padding: 1% 5% 1% 5%;
+}
+  
+.main {
+    font-size: 1rem;
+    line-height: 2;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.sectitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    filter: drop-shadow(0 0 0.5rem rgb(213, 213, 213));
+    max-width: 100%;
+}
+
+#og {
+    flex: 1 1 100px; /* or 1 0 100px, and no more need in min-width at all */
+    max-width: 350px;
+    min-width: 200px;
+    margin: auto;
+}
+
+#proto1 {
+    width: 100%;
+    box-shadow: none;
+}
+
+#proto2 {
+    width: 40%;
+    padding-top: 80px;
+    box-shadow: none;
+}
+
+#proto3 {
+    width: 60%;
+    padding-top: 80px;
+    box-shadow: none;
+}
+
+#proto4 {
+  box-shadow: none;
+}
+
+#p4 {
+  width: 90%;
+  margin: 0 5% 5% 0;
+  height: 500px;
+  overflow: auto;
+  border: 2px solid #192142;
+  border-radius: 15px;
+}
+
+#p5 {
+  width: 90%;
+  height: 500px;
+  overflow: auto;
+  border: 2px solid #192142;
+  border-radius: 15px;
+}
+
+#p6 {
+  width: 25%;
+  height: 550px;
+  overflow: auto;
+  border: 2px solid #192142;
+  border-radius: 15px;
+}
+
+#proto5 {
+  box-shadow: none;
+}
+
+#proto6 {
+  box-shadow: none;
+}
+
+.bigims {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.bigims1 {
+  display: flex;
+  flex-wrap: row;
+  padding-top: 10px;
+}
+
+.ahh img {
+  max-width: 100%;
+  margin: none;
+}
+
+.ahh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ah {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+
+#para {
+    flex: 1 1 100px; /* or 1 0 100px, and no more need in min-width at all */
+    max-width: 500px;
+    min-width: 300px;
+}
+
+#para2 {
+    padding-left: 100px;
+    min-width: 400px;
+}
+
+.divpart {
+    flex: 1 1 100px; 
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.desc {
+    flex: 1 1 100px; 
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: flex-end;
+}
+
+.person {
+    flex: 1 1 100px; 
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.card {
+    flex: 1 1 100px; 
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.innerContent1 {
+   display: flex;
+   flex-direction: row; 
+   gap: 30px;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.innerContent1 ul {
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.innerContent1 img {
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.innerContent img {
+    max-height: 120px;
+}
+
+.innerContent ul {
+    max-width: 400px;
+}
+
+.innerContent {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.chunk {
+    max-width: 700px;
+    min-width: 250px;
+    flex: 1 1 100px;
+}
+
+.chunk1 {
+    max-width: 900px;
+    min-width: 600px;
+    flex: 1 1 100px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 1%;
+}
+
+#wrappy {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+
+#wrappy div {
+    max-width: 95%;
+    padding: 1% 3% 1% 3%;
+    padding-right: 4%;
+    margin-bottom: 10px;
+    border: 2px solid #192142;
+    border-radius: 10px;
+}
+
+#wrappy img {
+    max-width: 20%;
+}
+
+.clicky {
+    background-color: #3a4167;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 20px;
+  }
+
+  .clicky:hover {
+    background-color: #58608e;
+  }
+
+  #formwrap {
+    text-align: center;
+  }
+
+
+  .section {
+    padding-bottom: 60px;
+  }
+
+  ul {
+    text-align: left;
+  }
+  .piece {
+    max-width: 30%;
+  }
+
+  a {
+    color: #58608e;
+  }
+
+  a:hover {
+    color: #767ca1; 
+  }
+
+  #stacked {
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+  }
